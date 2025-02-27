@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src='//whephiwums.com/sdk.js' data-zone='8980914' data-sdk='show_8980914'></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reward Zone</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_PUBLISHER_ID" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Reward Zone</h1>
+            <div id="userBalance" class="balance">Points: 0</div>
+        </header>
+
+        <main>
+            <!-- Home Section -->
+            <div id="homeSection" class="page-section active">
+                <section class="ads-section">
+                    <h2>Watch Ads to Earn</h2>
+                    <div class="ad-container">
+                        <!-- Ad slots will be added here -->
+                        <ins class="adsbygoogle"
+                            style="display:block"
+                            data-ad-client="ca-pub-YOUR_PUBLISHER_ID"
+                            data-ad-slot="YOUR_AD_SLOT_ID"
+                            data-ad-format="auto"
+                            data-full-width-responsive="true"></ins>
+                    </div>
+                    <button id="watchAdBtn" class="primary-btn">Watch Ad</button>
+                </section>
+
+                <section class="withdraw-section">
+                    <h2>Withdraw Points</h2>
+                    <div class="withdraw-container">
+                        <p>Exchange Rate: 100 points = $1 USD</p>
+                        <form id="withdrawForm" class="withdraw-form">
+                            <input type="number" id="withdrawAmount" placeholder="Enter points to withdraw" required>
+                            <input type="email" id="payeerEmail" placeholder="Enter your Payeer email" required>
+                            <button type="submit" class="primary-btn">Withdraw to Payeer</button>
+                        </form>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Payment Section -->
+            <div id="paymentSection" class="page-section">
+                <section class="payment-section">
+                    <h2>Payments & Withdrawals</h2>
+                    <div class="withdraw-container">
+                        <p>Exchange Rate: 100 points = $1 USD</p>
+                        <form id="withdrawForm" class="withdraw-form">
+                            <input type="number" id="withdrawAmount" placeholder="Enter points to withdraw" required>
+                            <input type="email" id="payeerEmail" placeholder="Enter your Payeer email" required>
+                            <button type="submit" class="primary-btn">Withdraw to Payeer</button>
+                        </form>
+                    </div>
+                </section>
+            </div>
+
+
+
+            <!-- Refer Section -->
+            <div id="referSection" class="page-section">
+                <section class="refer-section">
+                    <h2>Refer & Earn</h2>
+                    <div class="refer-container">
+                        <div class="referral-info">
+                            <h3>Your Referral Link</h3>
+                            <div class="referral-link-container">
+                                <input type="text" id="referralLink" value="https://rewardzone.com/ref/ABC123" readonly>
+                                <button id="copyLinkBtn" class="secondary-btn">Copy</button>
+                            </div>
+                            <p class="referral-description">Share your referral link and earn 10% of your referrals' earnings!</p>
+                        </div>
+                        <div class="referral-stats">
+                            <div class="stat-item">
+                                <h4>Total Referrals</h4>
+                                <p id="totalReferrals">0</p>
+                            </div>
+                            <div class="stat-item">
+                                <h4>Referral Earnings</h4>
+                                <p id="referralEarnings">0 points</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <nav class="bottom-nav">
+            <a href="#" class="nav-item" data-section="homeSection">
+                <svg class="nav-icon" viewBox="0 0 24 24">
+                    <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
+                </svg>
+                <span>Home</span>
+            </a>
+            <a href="#" class="nav-item" data-section="paymentSection">
+                <svg class="nav-icon" viewBox="0 0 24 24">
+                    <path d="M20 4H4c-1.11 0-1.99.89-1.99 2L2 18c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V6c0-1.11-.89-2-2-2zm0 14H4v-6h16v6zm0-10H4V6h16v2z"/>
+                </svg>
+                <span>Payment</span>
+            </a>
+
+            <a href="#" class="nav-item" data-section="referSection">
+                <svg class="nav-icon" viewBox="0 0 24 24">
+                    <path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81 1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9c-1.66 0-3 1.34-3 3s1.34 3 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65 0 1.61 1.31 2.92 2.92 2.92 1.61 0 2.92-1.31 2.92-2.92s-1.31-2.92-2.92-2.92z"/>
+                </svg>
+                <span>Refer</span>
+            </a>
+        </nav>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
