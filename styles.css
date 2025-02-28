@@ -367,18 +367,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -432,7 +436,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -631,18 +656,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -696,7 +725,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -816,18 +866,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -881,7 +935,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -1001,18 +1076,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -1066,7 +1145,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -1184,18 +1284,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -1249,7 +1353,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -1367,18 +1492,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -1432,7 +1561,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -1550,18 +1700,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -1615,7 +1769,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -1733,18 +1908,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -1798,7 +1977,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -1916,18 +2116,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -1981,7 +2185,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -2099,18 +2324,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -2164,7 +2393,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -2282,18 +2532,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -2347,7 +2601,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -2465,18 +2740,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -2530,7 +2809,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -2648,18 +2948,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -2713,7 +3017,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -2831,18 +3156,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -2896,7 +3225,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -3014,18 +3364,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -3079,7 +3433,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -3197,18 +3572,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -3262,7 +3641,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -3380,18 +3780,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -3445,7 +3849,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -3563,18 +3988,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -3628,7 +4057,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -3746,18 +4196,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -3811,7 +4265,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -3929,18 +4404,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -3994,7 +4473,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -4112,18 +4612,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -4177,7 +4681,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -4295,18 +4820,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -4360,7 +4889,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -4478,18 +5028,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -4543,7 +5097,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -4661,18 +5236,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -4726,7 +5305,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -4844,18 +5444,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -4909,7 +5513,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -5027,18 +5652,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -5092,7 +5721,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -5210,18 +5860,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -5275,7 +5929,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -5393,18 +6068,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -5458,7 +6137,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -5576,18 +6276,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -5641,7 +6345,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -5759,18 +6484,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -5824,7 +6553,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -5942,18 +6692,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -6007,7 +6761,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -6125,18 +6900,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -6190,7 +6969,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -6308,18 +7108,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -6373,7 +7177,28 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
 
 .nav-item {
@@ -6491,18 +7316,22 @@ input:focus {
 
 #copyLinkBtn {
     padding: 0.75rem 1.5rem;
-    background: var(--primary-color);
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
     color: white;
     border: none;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(124, 58, 237, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 #copyLinkBtn:hover {
-    background: #1976D2;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
 }
 
 .referral-description {
@@ -6556,5 +7385,26 @@ input:focus {
 
 .copy-success {
     animation: copySuccess 0.3s ease-in-out;
-    background: #22c55e !important;
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%) !important;
+    box-shadow: 0 2px 10px rgba(34, 197, 94, 0.3);
+}
+
+#copyLinkBtn:active {
+    transform: scale(0.98);
+    box-shadow: 0 2px 8px rgba(124, 58, 237, 0.2);
+}
+
+#copyLinkBtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: 0.5s;
+}
+
+#copyLinkBtn:hover::before {
+    left: 100%;
 }
